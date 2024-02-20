@@ -74,6 +74,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 ### Useful resources
 
 - [CSS Reset](https://andy-bell.co.uk/a-modern-css-reset/) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [CSS Rem Guide](https://www.freecodecamp.org/news/what-is-rem-in-css/) - This helped me for understanding how to use (r)em
 
 ## Author
 
