@@ -27,29 +27,46 @@
 
   <section class="calculator">
     <h2>Enter your details below</h2>
-    <input type="radio" name="unit" id="metric" value="metric">
-    <label for="metric">Metric</label>
-    <input type="radio" name="unit" id="imperial" value="imperial">
-    <label for="imperial">Imperial</label>
-    <input type="number" name="height" id="height">
-    <label for="height">Height</label>
-    <input type="number" name="weight" id="weight">
-    <label for="weight">Weight</label>
-    <div>
-      <p>Your BMI is...</p>
-      <p>Your BMI suggests you're
-        Your ideal weight is between.</p>
+    <div class="unit-selection">
+      <div class="calculator-radio-group">
+        <input type="radio" name="unit" id="metric" value="metric" class="calculator-radio">
+        <label for="metric" class="calculator-radio-label">Metric</label>
+      </div>
+      <div class="calculator-radio-group">
+        <input type="radio" name="unit" id="imperial" value="imperial" class="calculator-radio">
+        <label for="imperial" class="calculator-radio-label">Imperial</label>
+      </div>
+    </div>
+
+    <div class="measurements">
+      <div class="input-group">
+        <input type="number" name="height" id="height">
+        <label for="height">Height</label>
+      </div>
+
+      <div class="input-group">
+        <input type="number" name="weight" id="weight">
+        <label for="weight">Weight</label>
+      </div>
+    </div>
+    <div class="result-box">
+      <p class="result">Your BMI is...<span>20</span></p>
+      <p class="result-explanation">Your BMI suggests you're a healthy weight.
+        Your ideal weight is between <span>62.3kgs - 82.5kgs</span></p>
     </div>
   </section>
 
-  <section>
-    <h2> What your BMI result means </h2>
-    <p>A BMI range of 18.5 to 24.9 is considered a 'healthy weight.' Maintaining a
-      healthy weight may lower your chances of experiencing health issues later on,
-      such as obesity and type 2 diabetes. Aim for a nutritious diet with reduced
-      fat and sugar content, incorporating ample fruits and vegetables. Additionally,
-      strive for regular physical activity, ideally about 30 minutes daily for
-      five days a week.</p>
+  <section class="explanation-section">
+    <img src="assets/images/image-man-eating.webp" alt="Man eating">
+    <div>
+      <h2> What your BMI result means </h2>
+      <p>A BMI range of 18.5 to 24.9 is considered a 'healthy weight.' Maintaining a
+        healthy weight may lower your chances of experiencing health issues later on,
+        such as obesity and type 2 diabetes. Aim for a nutritious diet with reduced
+        fat and sugar content, incorporating ample fruits and vegetables. Additionally,
+        strive for regular physical activity, ideally about 30 minutes daily for
+        five days a week.</p>
+    </div>
   </section>
 
   <section>
