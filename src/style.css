@@ -256,3 +256,17 @@ h2 {
 .explanation-section div {
   margin: 4.8rem 2.4rem 0 2.4rem;
 }
+
+/* measurements */
+.measurements {
+  height: auto;
+  padding: 5.6rem 2.9rem 5.6rem 1.9rem;
+}
+
+.measurement {
+  margin-bottom: 4rem;
+}
+
+.measurement h3 {
+  margin: 3.2rem 0 2.4rem 0;
+}
