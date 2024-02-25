@@ -108,6 +108,7 @@ h1,
 h2,
 h3 {
   font-family: interSemiBold;
+  color: var(--gunmetal)
 }
 
 h1 {
@@ -257,7 +258,7 @@ h2 {
   margin: 4.8rem 2.4rem 0 2.4rem;
 }
 
-/* measurements */
+/* measurements section */
 .measurements {
   height: auto;
   padding: 5.6rem 2.9rem 5.6rem 1.9rem;
@@ -269,4 +270,31 @@ h2 {
 
 .measurement h3 {
   margin: 3.2rem 0 2.4rem 0;
+}
+
+/* limitations section */
+.limitations {
+  margin: 7.2rem 2.9rem 9.6rem 1.9rem;
+}
+
+.limitations-intro {
+  text-align: center;
+  margin-bottom: 5.6rem;
+}
+
+.limitations-intro h2 {
+  margin-bottom: 3.2rem;
+  font-size: 3.2rem;
+}
+
+.limitation {
+  box-shadow: 16px 32px 56px 0px rgba(143, 174, 207, 0.25);
+  padding: 2.4rem;
+  margin-bottom: 1.6rem;
+}
+
+.limitation h3 {
+  display: flex;
+  gap: 1.6rem;
+  margin-bottom: 1.6rem;
 }
