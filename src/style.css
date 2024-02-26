@@ -179,7 +179,15 @@ h2 {
 .calculator-radio {
   width: 3.1rem;
   height: 3.1rem;
-  border: var(--border-color) solid 1px;
+  appearance: none;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px var(--border-color);
+}
+
+.calculator-radio:checked {
+  box-shadow: 0 0 0 0.5rem rgba(52, 95, 246, 15%);
+  background-color: var(--blue);
 }
 
 .calculator-radio-label {
