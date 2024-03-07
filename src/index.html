@@ -40,19 +40,21 @@
 
     <div class="measurements">
       <div class="input-group">
-        <input type="number" name="height" id="height">
         <label for="height">Height</label>
+        <div class="measurement-unit">cm</div>
+        <input type="number" name="height" id="height">
       </div>
 
       <div class="input-group">
-        <input type="number" name="weight" id="weight">
         <label for="weight">Weight</label>
+        <div class="measurement-unit">kg</div>
+        <input type="number" name="weight" id="weight">
       </div>
     </div>
     <div class="result-box">
-      <p class="result">Your BMI is...<span>20</span></p>
-      <p class="result-explanation">Your BMI suggests you're a healthy weight.
-        Your ideal weight is between <span>62.3kgs - 82.5kgs</span></p>
+      <p class="result">Your BMI is...<span>0</span></p>
+      <p class="result-explanation">Your BMI suggests you're a <span class="classification">healthy</span> weight.
+        Your ideal weight is between <span class="ideal-weight">62.3kgs - 82.5kgs</span></p>
     </div>
   </section>
 
