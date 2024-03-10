@@ -266,6 +266,16 @@ h2 {
   font-family: interSemiBold;
 }
 
+@media screen and (min-width: 768px) {
+  .calculator {
+    margin: -34rem 2.4rem 7.2rem 2.4rem;
+  }
+
+  .result-box {
+    border-radius: 0 50% 50% 0;
+  }
+}
+
 /* What your result means section */
 .explanation-section {
   margin-top: 7.2rem;
@@ -281,6 +291,19 @@ h2 {
   margin: 4.8rem 2.4rem 0 2.4rem;
 }
 
+@media screen and (min-width: 768px) {
+  .explanation-section {
+    display: flex;
+    flex-flow: row nowrap;
+  }
+
+  .explanation-section img {
+    flex-shrink: 0;
+    height: 411px;
+    width: 435px;
+  }
+}
+
 /* measurements section */
 .measurements {
   height: auto;
@@ -293,6 +316,17 @@ h2 {
 
 .measurement h3 {
   margin: 3.2rem 0 2.4rem 0;
+}
+
+@media screen and (min-width: 768px) {
+  .measurement {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    gap: 5.6rem;
+    margin-left: 3.9rem;
+    margin-right: 4.3rem;
+  }
 }
 
 /* limitations section */
